@@ -1,0 +1,33 @@
+.main {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.header {
+  font-size: 144px;
+  background: -webkit-linear-gradient(rgb(91, 206, 206), rgb(176, 115, 211));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.bar {
+  box-shadow: 0 0 10px rgb(114, 114, 114);
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 20px;
+  padding-top: 27px;
+  padding-left: 50px;
+  padding-right: 500px;
+  border-radius: 50px;
+  background-image: linear-gradient(to bottom right, rgb(176, 115, 211),rgb(91, 206, 206));
+}
+
+.bar::placeholder {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
